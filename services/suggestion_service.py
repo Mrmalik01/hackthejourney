@@ -10,7 +10,7 @@ class Suggestion(Resource):
         required=True,
         help="This field is required"
     )
-
+    
     times = {
         "LESS_THAN_30_MINUTES" : 30,
         "BETWEEN_30_AND_60_MINUTES" : 60,
