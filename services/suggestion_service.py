@@ -10,7 +10,7 @@ class Suggestion(Resource):
         required=True,
         help="This field is required"
     )
-    
+
     times = {
         "LESS_THAN_30_MINUTES" : 30,
         "BETWEEN_30_AND_60_MINUTES" : 60,
@@ -21,7 +21,7 @@ class Suggestion(Resource):
     def post(self):
         prescriptions = []
         result = {"prescription" : prescriptions}
-        data = request.get_json()['data']
+        data = request.get_json()
         pres = data['prescription']
         flight = data['flight_detail']
         delay = data['delay_prediction']['data']
