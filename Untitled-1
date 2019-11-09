@@ -1,0 +1,52 @@
+{
+    "data" : {
+        "prescription" : [
+            {
+                "med_name" : "Paracetamol",
+                "doses" : []
+            },
+            {
+                "med_name" : "Paracetamolv2",
+                "doses" : []
+            }
+        ],
+        "flight_detail" : {
+            "flight_number" : 232,
+            "operator_name" : "Qatar Airways",
+            "origin" : "London",
+            "destination" : "Qatar",
+            "start"  : "11:00"
+            "arrival" : "22:00"
+        }
+        "delay_prediction" : "data": [
+            {
+            "id": "LH1009BRUFRA20200114",
+            "probability": "0.20311081",
+            "result": "LESS_THAN_30_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+            },
+            {
+            "id": "LH1009BRUFRA20200114",
+            "probability": "0.22781274",
+            "result": "BETWEEN_30_AND_60_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+            },
+            {
+            "id": "LH1009BRUFRA20200114",
+            "probability": "0.14159082",
+            "result": "BETWEEN_60_AND_120_MINUTES",
+            "subType": "flight-delay",
+            "type": "prediction"
+            },
+            {
+            "id": "LH1009BRUFRA20200114",
+            "probability": "0.42748562",
+            "result": "OVER_120_MINUTES_OR_CANCELLED",
+            "subType": "flight-delay",
+            "type": "prediction"
+            }
+        ]
+    }
+}
